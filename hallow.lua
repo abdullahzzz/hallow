@@ -61,20 +61,10 @@ DiscordButton.TextSize = 23.000
 
 DiscordButton.MouseButton1Down:connect(function()
 
-local message = "HallowHub OT."
-
-
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
-game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message,"LocalPlayer")
+local msg = "#c00lriot"
+while wait() do
+game.Player:Chat (msg)
+end
 
 end)
 
