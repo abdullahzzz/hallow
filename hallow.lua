@@ -53,7 +53,7 @@ DiscordButton.Size = UDim2.new(0, 163, 0, 40)
 
 DiscordButton.Font = Enum.Font.SourceSans
 
-DiscordButton.Text = "Chat Spam"
+DiscordButton.Text = "Car Fly"
 
 DiscordButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 
@@ -61,12 +61,16 @@ DiscordButton.TextSize = 23.000
 
 DiscordButton.MouseButton1Down:connect(function()
 
-local msg = "#c00lriot"
-while wait() do
-game.Player:Chat (msg)
+local plr = game:GetService"Players".LocalPlayer
+local m = plr:GetMouse()
+m.KeyDown:connect(function(k)
+if k == "m" then
+game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+wait()
+game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Seated")
 end
-
 end)
+
 
 
 KeyBox.Name = "KeyBox"
