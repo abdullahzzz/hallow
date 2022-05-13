@@ -53,7 +53,7 @@ DiscordButton.Size = UDim2.new(0, 163, 0, 40)
 
 DiscordButton.Font = Enum.Font.SourceSans
 
-DiscordButton.Text = "ADmin Hub"
+DiscordButton.Text = "Chat Spam"
 
 DiscordButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 
