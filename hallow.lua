@@ -227,7 +227,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.Position = UDim2.new(0, 0, -0.00945626479, 0)
 TextLabel.Size = UDim2.new(0, 399, 0, 44)
 TextLabel.Font = Enum.Font.Bangers
-TextLabel.Text = "Hallow Hub"
+TextLabel.Text = "Hallow Hub | Beta"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 30.000
 
